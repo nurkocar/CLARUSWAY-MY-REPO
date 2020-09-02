@@ -1,0 +1,82 @@
+/* This is the external css file of Project1-Survey Form(Netflix) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('./images/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    color: white;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50px;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+span {
+    color: red;
+}
+
+#description {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    margin-bottom: 15px;
+}
+
+#survey_form {
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px;
+}
+
+#name,
+#age,
+#email,
+#content_type {
+    width: 400px;
+    height: 36px;
+    margin-top: 16px;
+    border: none;
+    padding: 10px;
+}
+
+.box {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.textarea {
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: larger;
+    width: 160px;
+    height: 45px;
+    border: none;
+    margin: 16px 0px 16px 150px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: white;
+    color: red;
+}

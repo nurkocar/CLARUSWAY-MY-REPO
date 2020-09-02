@@ -1,0 +1,39 @@
+table,
+th,
+td {
+    border: 1px solid olivedrab;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+    text-align: left;
+    vertical-align: top;
+    padding: 15px;
+    background-color: darkgray;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: right;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+td {
+    text-align: ;
+    padding: 15px;
+    /* background-color: darkorange; */
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+tr:hover {
+    background-color: cornflowerblue;
+}
