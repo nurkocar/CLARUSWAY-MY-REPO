@@ -1,0 +1,26 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+#link:hover {
+    color: mediumspringgreen;
+    cursor: pointer;
+}
+
+
+/* p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover+p {
+    display: block;
+} */
+
+
+/* Yeni ornek icin usttekileri yoruma aldik */

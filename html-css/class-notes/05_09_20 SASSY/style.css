@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: yellow;
+  /*   &__button--small {
+    color: green;
+  }
+  &__button--large {
+    color: red;
+  } */
+}
+.container__button--small {
+  color: pink;
+}
+.container__button--large {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

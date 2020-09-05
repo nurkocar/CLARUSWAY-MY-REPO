@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(34, 34, 34, );
+}
+
+.container {
+    border: 8px solid purple;
+    margin: 100px;
+    padding: 5px;
+}
+
+image {
+    float: left;
+    height: 400px;
+    width: auto;
+    margin: 75px 15px;
+}

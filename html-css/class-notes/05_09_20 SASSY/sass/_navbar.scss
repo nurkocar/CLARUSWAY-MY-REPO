@@ -1,0 +1,17 @@
+.container {
+    background-color: yellow;
+    /*   &__button--small {
+      color: green;
+    }
+    &__button--large {
+      color: red;
+    } */
+    &__button {
+        &--small {
+            color: pink;
+        }
+        &--large {
+            color: red;
+        }
+    }
+}

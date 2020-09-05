@@ -1,0 +1,30 @@
+/* div p {
+    background-color: mediumspringgreen;
+} */
+
+
+/* Usttekinin aynisini yapar */
+
+
+/* #main-div p {
+    background-color: mediumspringgreen;
+} */
+
+
+/* div>p {
+    background-color: mediumspringgreen;
+} */
+
+
+/* div+p {
+    background-color: mediumspringgreen;
+} */
+
+div~p {
+    background-color: mediumspringgreen;
+}
+
+p:last-child::after {
+    content: 'Hakan';
+    color: blue;
+}
