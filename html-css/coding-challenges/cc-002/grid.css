@@ -1,0 +1,49 @@
+.gridcontainer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 201, 201, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 3fr 3fr 1fr;
+    grid-template-areas: 'header header header header' 'sbox1 sbox2 sbox3 sidebar''maincontent maincontent maincontent sidebar''footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.smallbox1 {
+    grid-area: sbox1;
+}
+
+.smallbox2 {
+    grid-area: sbox2;
+}
+
+.smallbox3 {
+    grid-area: sbox3;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main_content {
+    grid-area: maincontent;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+@media screen and(max-width:768px) {}
