@@ -1,0 +1,17 @@
+body{
+    background-color: ;
+    text-align: center;
+}
+
+.inp{
+    border-width: 5;
+}
+
+#btn_1{
+    margin: 5px;
+}
+
+#result{
+    margin: 10px;
+    font-size: 32px;
+}
