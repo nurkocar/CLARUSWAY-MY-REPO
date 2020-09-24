@@ -1,0 +1,22 @@
+.success{
+    color: green;
+}
+
+.error{
+    color: red ;
+}
+
+.hello{
+    color: blue;
+    font-size: 45px;
+}
+
+.bannerText{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.active{
+    color: blue;
+    text-decoration: line-through;
+}
